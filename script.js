@@ -1,3 +1,8 @@
+$(document).ready(function() {
+    $(".onboarding").click(function(){
+        $(this).fadeOut("slow");
+    });
+})
 $( document ).on( "pagecreate", "#demo-page", function() {
     // Swipe to remove list item
     $( document ).on( "swipeleft swiperight", "#list li", function( event ) {
