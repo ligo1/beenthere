@@ -136,10 +136,11 @@ ul.touch li.ui-li-has-alt a.ui-btn {
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-align: center;
 }
 
 .bottomBtn img {
-    width: 100%;
+    width: 80%;
     max-width: 1000px;
 }
 
