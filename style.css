@@ -46,6 +46,25 @@ ul.touch li.ui-li-has-alt a.ui-btn {
 
 /* Added */
 
+.onboarding {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #f35556;
+    text-align: center;
+    z-index:100;
+    font-size: 5em;
+}
+
+.startBtn {
+    border: 1px solid #000;
+    width: 20%;
+    margin: 200px auto;
+    padding: 50px;
+    border-radius: 100px;
+}
+
 #list li {
     position: absolute;
     top: 0;
