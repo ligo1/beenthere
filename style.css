@@ -126,6 +126,11 @@ ul.touch li.ui-li-has-alt a.ui-btn {
     text-align: right;
 }
 
+.innerContent {
+    font-size: 2.8em !important;
+    margin-bottom: 60px !important;
+}
+
 .delete {
     top: auto !important;
     bottom: 0 !important;
