@@ -13,6 +13,11 @@ $( document ).on( "pagecreate", "#demo-page", function() {
             transition = $.support.cssTransform3d ? dir : false;
             confirmAndDelete( listitem, transition );
     });
+    // clicked on delete
+    $( ".deleteLi" ).on( "click", function() {
+        var listitem = $( "#list li" ).last();
+        confirmAndDelete( listitem );
+    });
     // If it's not a touch device...
     if ( ! $.mobile.support.touch ) {
         // Remove the class that is used to hide the delete button on touch devices
