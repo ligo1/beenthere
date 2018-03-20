@@ -135,6 +135,10 @@ ul.touch li.ui-li-has-alt a.ui-btn {
     margin-bottom: 60px !important;
 }
 
+.oneLine {
+    margin-bottom: 120px !important;
+}
+
 .delete {
     top: auto !important;
     bottom: 0 !important;
